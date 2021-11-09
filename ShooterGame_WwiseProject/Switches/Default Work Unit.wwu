@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A7EF5E91-96D9-4011-9EB8-25F637E76999}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{A7EF5E91-96D9-4011-9EB8-25F637E76999}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="footsteps" ID="{0F49B426-DF42-4E36-957B-E2D514C59C09}" ShortID="830048495">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="19"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<SwitchGroup Name="footsteps_surface" ID="{0ABD9BD8-ADE6-4047-82B4-94CBF6B65BB8}">
+							<ChildrenList>
+								<Switch Name="Concrete" ID="{24186153-D562-4EEE-A15F-0BE816EB9A73}"/>
+								<Switch Name="Dirt" ID="{6A93404C-D19B-44B0-B2B5-E8121B15087A}"/>
+								<Switch Name="Water" ID="{8B5B23F7-CA8C-4720-9DA1-B3130CD9FD26}"/>
+								<Switch Name="Metal" ID="{AA33682B-FA56-4EEA-BBB3-43D660F79B65}"/>
+								<Switch Name="Grass" ID="{1F21DFCA-C12F-4BAF-B1F0-EF9A5B9A38B7}"/>
+								<Switch Name="Glass" ID="{6B1C912F-2260-4776-8B96-E77E16700698}"/>
+								<Switch Name="Wood" ID="{67C626B4-1B64-4ECE-BDC0-A0ABD750F025}"/>
+							</ChildrenList>
+						</SwitchGroup>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

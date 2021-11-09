@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{20C51B66-8AFF-43A5-AFDA-9C2139F500B2}" SchemaVersion="103">
+	<Effects>
+		<WorkUnit Name="Default Work Unit" ID="{20C51B66-8AFF-43A5-AFDA-9C2139F500B2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="FX_out_of_ammo_warning_TimeStretch" ID="{5197D259-177C-4181-8B77-BE0D86F43FC3}" PluginName="Wwise Time Stretch" CompanyID="0" PluginID="130" PluginType="3">
+					<PropertyList>
+						<Property Name="TimeStretch" Type="Real32" Value="25">
+							<RTPCList>
+								<RTPC Name="" ID="{E657DFC5-6758-4318-851C-73C47E6D1BCA}" ShortID="375572366">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_out_of_ammo_warning" ID="{F229ADB0-6B54-4F83-89C9-1DD1A16F5E9A}" WorkUnitID="{7694C3AE-69FF-4CC4-BF26-6586F2AA75B9}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{69DDCF6A-788A-478B-AB9B-C7FAD3FE6477}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="1"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>70</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>5</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>15</XPos>
+												<YPos>100</YPos>
+												<Flags>0</Flags>
+											</Point>
+											<Point>
+												<XPos>50</XPos>
+												<YPos>100</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+						<Property Name="TimeStretchRandom" Type="Real32" Value="6"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="FX_out_of_ammo_warning_Delay" ID="{4DDF31BB-F08E-4A9F-96B0-B293CB5F0E85}" PluginName="Wwise Delay" CompanyID="0" PluginID="106" PluginType="3">
+					<PropertyList>
+						<Property Name="DelayTime" Type="Real32" Value="0.67"/>
+						<Property Name="FeedbackEnabled" Type="bool" Value="False"/>
+						<Property Name="WetDryMix" Type="Real32" Value="50"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
+	</Effects>
+</WwiseDocument>

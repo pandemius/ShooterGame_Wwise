@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7694C3AE-69FF-4CC4-BF26-6586F2AA75B9}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{7694C3AE-69FF-4CC4-BF26-6586F2AA75B9}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="RTPC" ID="{DCB33CC1-A127-4F4A-8C0D-827FDF1D328C}" ShortID="447249112">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<GameParameter Name="RTPC_ammo_Pitch" ID="{85033DF4-E52F-4F33-A23D-010D5CB3D4F5}">
+							<PropertyList>
+								<Property Name="Max" Type="Real64" Value="50"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_ammo_HPF" ID="{BC26F4B6-274F-4532-AA3E-5864AD227CA0}">
+							<PropertyList>
+								<Property Name="Max" Type="Real64" Value="50"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RTPC_out_of_ammo_warning" ID="{F229ADB0-6B54-4F83-89C9-1DD1A16F5E9A}">
+							<PropertyList>
+								<Property Name="Max" Type="Real64" Value="50"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

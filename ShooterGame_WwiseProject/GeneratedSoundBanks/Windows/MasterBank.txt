@@ -1,0 +1,223 @@
+Event	ID	Name			Wwise Object Path	Notes
+	133070716	launcher_load			\Default Work Unit\2D\player\weapon\launcher\launcher_reload\launcher_load	
+	166625877	launcher_lock			\Default Work Unit\2D\player\weapon\launcher\launcher_reload\launcher_lock	
+	838803493	assault_rifle_fire_loop			\Default Work Unit\2D\player\weapon\assault_rifle\assault_rifle_fire_loop	
+	943549884	weapon_equip			\Default Work Unit\2D\player\weapon\weapon_foley\weapon_equip	
+	1010747703	assault_rifle_reload			\Default Work Unit\2D\player\weapon\assault_rifle\assault_rifle_reload	
+	1128978829	ambience_hall			\Default Work Unit\2D\AMB\ambience_hall	
+	1148345285	launcher_projectile			\Default Work Unit\3D\weapon\launcher\launcher_projectile	
+	1384741713	assault_rifle_out_of_ammo			\Default Work Unit\2D\player\weapon\assault_rifle\assault_rifle_out_of_ammo	
+	1563725988	launcher_fire			\Default Work Unit\2D\player\weapon\launcher\launcher_fire	
+	1682879582	footsteps_foley			\Default Work Unit\2D\player\foley\footsteps_foley	
+	1703509678	launcher_impact			\Default Work Unit\3D\weapon\launcher\impact\launcher_impact	
+	2385628198	footsteps			\Default Work Unit\3D\footsteps\footsteps	
+	2803265243	out_of_ammo_warning			\Default Work Unit\2D\player\weapon\assault_rifle\out_of_ammo_warning	
+	3015445330	footsteps_landing_foley			\Default Work Unit\2D\player\foley\footsteps_landing_foley	
+	3212347026	footsteps_landing			\Default Work Unit\3D\footsteps\footsteps_landing	
+	3503616900	assault_rifle_impact_concrete			\Default Work Unit\3D\weapon\assault_rifle\impact\assault_rifle_impact_concrete	
+	3731941266	health_pickup			\Default Work Unit\3D\pickups\health_pickup	
+	3785878977	jump_foley			\Default Work Unit\2D\player\foley\jump_foley	
+	3954294831	launcher_insert			\Default Work Unit\2D\player\weapon\launcher\launcher_reload\launcher_insert	
+	3974943475	ambience_stone			\Default Work Unit\2D\AMB\ambience_stone	
+	4038751939	weapon_aim			\Default Work Unit\2D\player\weapon\weapon_foley\weapon_aim	
+	4231288869	assault_rifle_fire_tail			\Default Work Unit\2D\player\weapon\assault_rifle\assault_rifle_fire_tail	
+	4253579710	ammo_pickup			\Default Work Unit\3D\pickups\ammo_pickup	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	1162743606	footsteps_surface			\Default Work Unit\footsteps\footsteps_surface	
+
+Switch	ID	Name	Switch Group			Notes
+	841620460	Concrete	footsteps_surface			
+	2058049674	Wood	footsteps_surface			
+	2195636714	Dirt	footsteps_surface			
+	2449969375	Glass	footsteps_surface			
+	2473969246	Metal	footsteps_surface			
+	2654748154	Water	footsteps_surface			
+	4248645337	Grass	footsteps_surface			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1622844561	amb_state			\Default Work Unit\amb_state	
+
+State	ID	Name	State Group			Notes
+	748895195	None	amb_state			
+	1111537851	stone_inside	amb_state			
+	3271994640	stone_outside	amb_state			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	774953169	stone_outside	amb_state	\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\AMB\ambience_stone		
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	1297966937	RTPC_out_of_ammo_warning			\Default Work Unit\RTPC\RTPC_out_of_ammo_warning	
+	2709209934	RTPC_ammo_HPF			\Default Work Unit\RTPC\RTPC_ammo_HPF	
+	4289128226	RTPC_ammo_Pitch			\Default Work Unit\RTPC\RTPC_ammo_Pitch	
+
+Effect plug-ins	ID	Name	Type				Notes
+	3701691487	Hall_Large_Bright	Wwise RoomVerb			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	9196894	launcher_load_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\launcher_lock_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\reload\launcher_load\launcher_load_1		169136
+	10343609	mechanical_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\mechanical_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo\mechanical\mechanical_3		70672
+	21665775	ricochet_6	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\ricochet_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\ricochet\ricochet_6		67240
+	25678859	reload_release_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_release_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\release\reload_release_1		304064
+	26930512	plasma_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\plasma_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\impact\launcher\plasma\plasma_2		191626
+	37698689	energy_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\energy_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\fire\energy\energy_4		313116
+	38469880	weapon_aim_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\weapon_aim_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\foley\weapon_aim\weapon_aim_3		220564
+	50498202	reload_slide_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_slide_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\slide\reload_slide_1		304064
+	55783991	rock_slide_7	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\rock_slide_7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\AMB\ambience_hall\rock_slide\rock_slide_7		220564
+	57599933	explosion_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\explosion_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\impact\launcher\explosion\explosion_4		188400
+	59001690	reload_mechanical_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_mechanical_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\mechanical\reload_mechanical_2		302524
+	60273400	servo_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\servo_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\servo\servo_4		147064
+	63850293	launcher_lock_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\lock_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\reload\launcher_lock\launcher_lock_4		588064
+	64502109	fire_tail_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\fire_tail_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\fire\fire_tail\fire_tail_4		237632
+	70920237	deny_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\deny_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo\deny\deny_3		320064
+	71329987	ricochet_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\ricochet_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\ricochet\ricochet_4		51198
+	79866265	fire_loop	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\fire_loop_1_C5579977.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\fire_loop		709592
+	85821049	jump_whoosh_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\jump_whoosh_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\jump_foley\jump_whoosh\jump_whoosh_4		220564
+	89443182	ricochet_7	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\ricochet_7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\ricochet\ricochet_7		87068
+	94113153	ambience_stone	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\stone_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\AMB\ambience_stone		3551388
+	94222991	launcher_load_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\launcher_lock_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\reload\launcher_load\launcher_load_3		190148
+	104794304	cement_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cement_4_2C4B0713.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\cement\cement_4		49674
+	109038087	air_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\air_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\pickups\health_pickup\air\air_2		220564
+	112790300	pulse_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\pulse_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\fire\pulse\pulse_4		311920
+	130754948	rock_slide_8	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\rock_slide_8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\AMB\ambience_hall\rock_slide\rock_slide_8		220564
+	135957447	deny_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\deny_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo\deny\deny_1		320064
+	139284730	boom_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\boom_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\impact\launcher\boom\boom_2		367564
+	145565209	landing_boom_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\landing_boom_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footstep_landing_foley\landing_boom\landing_boom_4		147064
+	150212201	mechanical_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\mechanical_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo\mechanical\mechanical_1		113672
+	163484951	boom_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\boom_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\impact\launcher\boom\boom_3		367564
+	166664373	click_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\click_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo\click\click_4		320064
+	170676526	rock_slide_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\rock_slide_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\AMB\ambience_hall\rock_slide\rock_slide_3		220564
+	187636090	servo_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\servo_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\servo\servo_3		147064
+	214928936	pulse_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\pulse_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\fire\pulse\pulse_3		234244
+	225874010	fire_shot_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\fire_shot_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\fire\fire_shot\fire_shot_4		628936
+	226513108	rock_slide_6	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\rock_slide_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\AMB\ambience_hall\rock_slide\rock_slide_6		220564
+	227116254	landing_boom_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\landing_boom_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footstep_landing_foley\landing_boom\landing_boom_1		147064
+	239784683	deny_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\deny_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo\deny\deny_2		320064
+	257381653	reload_slide_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_slide_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\slide\reload_slide_3		304064
+	258760329	fire_tail_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\fire_tail_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\fire\fire_tail\fire_tail_1		205216
+	279926234	lunaching_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\lunaching_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\launcher_projectile\projectile\lunaching_3		312058
+	285762672	ammo_pickup_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\ammo_pickup_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\pickups\ammo_pickup\ammo_pickup_4		147064
+	291187035	mechanical_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\mechanical_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo\mechanical\mechanical_2		121012
+	292703701	landing_boom_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\landing_boom_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footstep_landing_foley\landing_boom\landing_boom_3		147064
+	294944682	launch_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\launch_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\fire\launch\launch_2		307360
+	301893826	servo_6	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\servo_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\servo\servo_6		147064
+	302621980	launch_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\launch_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\fire\launch\launch_1		315412
+	304018722	ricochet_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\ricochet_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\ricochet\ricochet_2		58852
+	304643082	reload_release_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_release_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\release\reload_release_4		304064
+	309106119	ricochet_8	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\ricochet_8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\ricochet\ricochet_8		55416
+	316571774	reload_slide_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_slide_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\slide\reload_slide_2		304064
+	319689713	reload_mechanical_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_mechanical_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\mechanical\reload_mechanical_4		304064
+	322199102	launcher_load_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\launcher_lock_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\reload\launcher_load\launcher_load_4		168644
+	324885217	reload_release_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_release_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\release\reload_release_2		304064
+	326075540	cloth_movement_6	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cloth_movement_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\cloth_movement\cloth_movement_6		147064
+	326816402	fire_shot_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\fire_shot_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\fire\fire_shot\fire_shot_2		636208
+	343398671	fire_shot_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\fire_shot_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\fire\fire_shot\fire_shot_1		605744
+	357383457	plasma_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\plasma_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\impact\launcher\plasma\plasma_3		188812
+	376419121	reload_slide_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_slide_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\slide\reload_slide_4		304064
+	389045501	reload_insert_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_insert_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\insert\reload_insert_4		304064
+	394426679	cement_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cement_2_BB19479A.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\cement\cement_2		54374
+	395821982	multiple	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\out_of_ammo_warning_fast_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo_warning\multiple		192368
+	400607098	launcher_lock_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\lock_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\reload\launcher_lock\launcher_lock_3		588064
+	407331727	rock_slide_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\rock_slide_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\AMB\ambience_hall\rock_slide\rock_slide_1		220564
+	411113036	insert_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\insert_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\pickups\health_pickup\insert\insert_2		220564
+	418874223	explosion_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\explosion_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\impact\launcher\explosion\explosion_3		188912
+	419861039	click_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\click_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo\click\click_2		320064
+	428788464	pulse_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\pulse_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\fire\pulse\pulse_2		296072
+	432095023	cloth_movement_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cloth_movement_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\cloth_movement\cloth_movement_3		147064
+	433847492	weapon_equip_click_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\weapon_equip_click_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\foley\weapon_equip\click\weapon_equip_click_2		147064
+	454369999	metal_impact_5	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\metal_impact_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\metal_impact\metal_impact_5		147064
+	454823406	ammo_pickup_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\ammo_pickup_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\pickups\ammo_pickup\ammo_pickup_1		147064
+	463138948	air_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\air_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\pickups\health_pickup\air\air_4		220564
+	479704476	boom_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\boom_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\impact\launcher\boom\boom_1		367564
+	485953937	pulse_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\pulse_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\fire\pulse\pulse_1		305808
+	486010214	ricochet_5	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\ricochet_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\ricochet\ricochet_5		61656
+	491024929	jump_foley_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\jump_foley_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\jump_foley\jump_foley\jump_foley_2		220564
+	493597270	cement_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cement_3_627E81AF.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\cement\cement_3		75088
+	494868748	reload_insert_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_insert_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\insert\reload_insert_1		304064
+	496430539	reload_insert_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_insert_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\insert\reload_insert_3		304064
+	505431248	servo_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\servo_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\servo\servo_2		147064
+	507528725	energy_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\energy_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\fire\energy\energy_1		314996
+	510142437	weapon_equip_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\weapon_equip_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\foley\weapon_equip\equip\weapon_equip_3		147064
+	513337803	plasma_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\plasma_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\impact\launcher\plasma\plasma_4		191132
+	525388586	energy_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\energy_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\fire\energy\energy_2		301040
+	529465192	reload_mechanical_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_mechanical_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\mechanical\reload_mechanical_3		304064
+	531596262	plasma_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\plasma_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\impact\launcher\plasma\plasma_1		220064
+	533352396	weapon_aim_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\weapon_aim_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\foley\weapon_aim\weapon_aim_2		220564
+	555596682	fire_single_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\fire_single_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\fire\fire_single\fire_single_4		43140
+	579901832	footsteps_landing_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\footsteps_landing_1_B86CDE61.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footstep_landing_foley\landing_foley\footsteps_landing_1		124132
+	590105002	servo_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\servo_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\servo\servo_1		147064
+	594898500	ricochet_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\ricochet_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\ricochet\ricochet_3		54256
+	605644934	cement_6	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cement_6_0655716E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\cement\cement_6		87518
+	611240225	explosion_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\explosion_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\impact\launcher\explosion\explosion_1		200910
+	615290730	cement_7	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cement_7_7D29E351.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\cement\cement_7		128412
+	616110118	fire_shot_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\fire_shot_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\fire\fire_shot\fire_shot_3		629896
+	625726228	click_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\click_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo\click\click_1		320064
+	628289351	boom_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\boom_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\impact\launcher\boom\boom_4		367564
+	637915706	metal_impact_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\metal_impact_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\metal_impact\metal_impact_4		147064
+	638590618	projectile_loop	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\projectile_loop_1_05BB6343.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\launcher_projectile\projectile_loop		1982078
+	645468135	launcher_load_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\launcher_lock_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\reload\launcher_load\launcher_load_2		147076
+	652960067	cloth_movement_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cloth_movement_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\cloth_movement\cloth_movement_2		147064
+	661584369	lunaching_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\lunaching_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\launcher_projectile\projectile\lunaching_1		295510
+	662842201	weapon_equip_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\weapon_equip_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\foley\weapon_equip\equip\weapon_equip_4		147064
+	671085990	footsteps_landing_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\footsteps_landing_4_803D3743.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footstep_landing_foley\landing_foley\footsteps_landing_4		124132
+	678872241	mechanical_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\mechanical_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo\mechanical\mechanical_4		77272
+	691659575	jump_foley_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\jump_foley_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\jump_foley\jump_foley\jump_foley_4		220564
+	693775138	hall_high_loop	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\hall_high_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\AMB\ambience_hall\hall_high_loop		3551388
+	697008406	hall_low_loop	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\hall_low_loop_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\AMB\ambience_hall\hall_low_loop		3551388
+	697316785	jump_whoosh_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\jump_whoosh_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\jump_foley\jump_whoosh\jump_whoosh_2		220564
+	709740865	metal_impact_6	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\metal_impact_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\metal_impact\metal_impact_6		147064
+	712633453	click_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\click_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo\click\click_3		320064
+	715091538	rock_slide_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\rock_slide_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\AMB\ambience_hall\rock_slide\rock_slide_2		220564
+	727635254	jump_foley_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\jump_foley_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\jump_foley\jump_foley\jump_foley_1		220564
+	742666864	launch_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\launch_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\fire\launch\launch_4		319040
+	743354021	servo_5	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\servo_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\servo\servo_5		147064
+	744918593	weapon_aim_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\weapon_aim_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\foley\weapon_aim\weapon_aim_4		220564
+	746301647	landing_boom_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\landing_boom_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footstep_landing_foley\landing_boom\landing_boom_2		147064
+	747773939	cement_8	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cement_8_8F1F7220.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\cement\cement_8		59438
+	758635576	lunaching_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\lunaching_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\launcher_projectile\projectile\lunaching_4		267444
+	760955078	explosion_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\explosion_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\impact\launcher\explosion\explosion_2		186176
+	779176612	weapon_equip_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\weapon_equip_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\foley\weapon_equip\equip\weapon_equip_1		147064
+	790845157	fire_tail_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\fire_tail_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\fire\fire_tail\fire_tail_2		201912
+	808642248	weapon_equip_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\weapon_equip_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\foley\weapon_equip\equip\weapon_equip_2		147064
+	814382688	air_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\air_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\pickups\health_pickup\air\air_3		220564
+	815359012	ammo_pickup_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\ammo_pickup_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\pickups\ammo_pickup\ammo_pickup_3		147064
+	815973839	metal_impact_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\metal_impact_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\metal_impact\metal_impact_2		147064
+	865124433	rock_slide_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\rock_slide_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\AMB\ambience_hall\rock_slide\rock_slide_4		220564
+	872059761	launcher_insert_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\launcher_insert_3_6ABD0FE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\reload\launcher_insert\launcher_insert_3		282304
+	873097695	jump_foley_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\jump_foley_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\jump_foley\jump_foley\jump_foley_3		220564
+	876936172	insert_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\insert_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\pickups\health_pickup\insert\insert_1		220564
+	880232726	cloth_movement_5	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cloth_movement_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\cloth_movement\cloth_movement_5		147064
+	887230976	cloth_movement_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cloth_movement_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\cloth_movement\cloth_movement_4		147064
+	892984190	energy_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\energy_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\fire\energy\energy_3		236584
+	896914934	launcher_insert_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\launcher_insert_1_9485E791.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\reload\launcher_insert\launcher_insert_1		282304
+	911391700	fire_tail_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\fire_tail_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\fire\fire_tail\fire_tail_3		258288
+	923532896	weapon_aim_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\weapon_aim_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\foley\weapon_aim\weapon_aim_1		220564
+	924240257	jump_whoosh_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\jump_whoosh_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\jump_foley\jump_whoosh\jump_whoosh_1		220564
+	927620530	launch_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\launch_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\fire\launch\launch_3		315488
+	938063428	ammo_pickup_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\ammo_pickup_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\pickups\ammo_pickup\ammo_pickup_2		147064
+	943178889	footsteps_landing_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\footsteps_landing_3_CA14F84F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footstep_landing_foley\landing_foley\footsteps_landing_3		124132
+	943632513	launcher_lock_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\lock_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\reload\launcher_lock\launcher_lock_2		588064
+	948098748	ricochet_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\ricochet_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\ricochet\ricochet_1		68352
+	954924757	cement_5	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cement_5_D5026C60.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\cement\cement_5		68628
+	960853343	launcher_insert_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\launcher_insert_4_6ABD0FE9.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\reload\launcher_insert\launcher_insert_4		282304
+	967127523	metal_impact_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\metal_impact_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\metal_impact\metal_impact_1		147064
+	974242601	fire_single_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\fire_single_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\fire\fire_single\fire_single_2		58572
+	975912798	lunaching_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\lunaching_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\launcher\launcher_projectile\projectile\lunaching_2		297704
+	980584181	launcher_lock_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\lock_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\reload\launcher_lock\launcher_lock_1		588064
+	983338226	cloth_movement_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cloth_movement_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\cloth_movement\cloth_movement_1		147064
+	986071888	launcher_insert_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\launcher_insert_2_F0AF28D7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\launcher\reload\launcher_insert\launcher_insert_2		349328
+	988198231	fire_single_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\fire_single_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\fire\fire_single\fire_single_3		45256
+	988305540	deny_4	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\deny_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo\deny\deny_4		320064
+	995336873	rock_slide_5	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\rock_slide_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\AMB\ambience_hall\rock_slide\rock_slide_5		220564
+	996729341	metal_impact_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\metal_impact_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footsteps_foley\metal_impact\metal_impact_3		147064
+	1003877705	reload_mechanical_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_mechanical_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\mechanical\reload_mechanical_1		304064
+	1015892807	air_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\air_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\pickups\health_pickup\air\air_1		220564
+	1025201768	jump_whoosh_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\jump_whoosh_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\jump_foley\jump_whoosh\jump_whoosh_3		220564
+	1035534395	fire_single_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\fire_single_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\fire\fire_single\fire_single_1		56080
+	1047413517	single	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\out_of_ammo_warning_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\out_of_ammo_warning\single		74640
+	1054495462	cement_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\cement_1_DE3AB924.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\3D\weapon\assault_rifle\impact\assault_rifle_concrete\cement\cement_1		39292
+	1058338122	reload_release_3	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_release_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\release\reload_release_3		304064
+	1061454558	weapon_equip_click_1	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\weapon_equip_click_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\foley\weapon_equip\click\weapon_equip_click_1		147064
+	1065935139	footsteps_landing_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\footsteps_landing_2_0167EF37.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\footsteps\footstep_landing_foley\landing_foley\footsteps_landing_2		124132
+	1068648491	reload_insert_2	C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\SFX\reload_insert_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\2D\player\weapon\assault_rifle\reload\insert\reload_insert_2		304064
+

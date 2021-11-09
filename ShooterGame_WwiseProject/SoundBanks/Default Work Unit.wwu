@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{79A408EC-2B45-4C0B-90F2-5F49A919AAE5}" SchemaVersion="103">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{79A408EC-2B45-4C0B-90F2-5F49A919AAE5}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="MasterBank" ID="{8AC8180C-B49D-43B6-BAE1-05E8BE7F178F}">
+					<ObjectInclusionList>
+						<ObjectRef Name="assault_rifle_impact_concrete" ID="{B63150E4-39E9-4033-B590-AF3412026C55}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="2D" ID="{622FBF6D-6A7B-408B-94D5-6A96E500F787}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="AMB" ID="{63D3F27C-18FE-40B2-A307-F6B2847F4A24}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ambience_hall" ID="{99D83E98-8DDF-40C9-9601-27020D825D89}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="weapon_equip" ID="{B35097C4-1177-40D3-AB05-81BA848AB430}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footsteps" ID="{BA9DA55E-D816-411F-A60F-8569FD36E138}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="impact" ID="{D5CBEDEB-91A9-41C5-B581-65F33A9641D2}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="weapon_foley" ID="{0B2B6853-6989-42C7-BBD2-786D6818F399}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="assault_rifle_fire_tail" ID="{2CB328BA-A2C4-42F2-BB00-4D3B00C4B7D1}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="health_pickup" ID="{5233DAE1-03E9-42F3-A373-19C24CEAE2FB}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="launcher" ID="{0066033E-2612-4316-B8DC-7E89F346041B}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="pickups" ID="{4B9A7693-ED5E-43F5-B5D1-B3076B6338A8}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{059EB400-F464-4440-8317-6B46B5792AD3}" WorkUnitID="{059EB400-F464-4440-8317-6B46B5792AD3}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="launcher" ID="{82011002-025A-4484-895C-33DA0B0B8AAE}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footsteps_landing_foley" ID="{85B2B95F-1ADA-44EA-B4DA-7240A5F38DEB}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="launcher_reload" ID="{C7D84CA9-DDCA-44F4-89BB-0266E2DD30E7}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="assault_rifle_out_of_ammo" ID="{0BC923CF-21DA-4592-BBDA-FAFF14298919}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="player" ID="{18A20981-4956-45AB-8125-7941B1D7E033}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="weapon" ID="{CDBBB640-45AB-45E3-8515-8C7935B3C887}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="3D" ID="{2C0D3CAB-41C7-462C-AD6F-5E94084AFFD7}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="weapon_aim" ID="{491EB215-1916-46DE-B59D-B9E3F710C567}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="launcher_impact" ID="{29B5CD54-9E76-476D-AD4F-4CDA7D76B65E}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Events" ID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" WorkUnitID="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="launcher_fire" ID="{8D78BC6A-AC44-48E0-BA44-675197874614}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ammo_pickup" ID="{B8C6F292-9DB7-4A3C-9EAC-51C82B2B3F34}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footsteps_foley" ID="{A0D3DD3E-EBD0-4AEA-84F0-F1F1E44C3973}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footsteps" ID="{704EBC5A-C30F-4B7A-9B37-6C265396424C}" WorkUnitID="{7C9DD216-F7D1-445C-81DB-4C3AA02C7045}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footsteps_foley" ID="{9E8D65C2-C6A3-4B86-9CAA-F831379D9A36}" WorkUnitID="{7C9DD216-F7D1-445C-81DB-4C3AA02C7045}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="weapon" ID="{F74F44CB-BC8E-4BA2-A32A-36C0F6C49A7A}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="launcher_projectile" ID="{E303A888-0AE2-4C9E-A072-055BFDB27D0F}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Dynamic Dialogue" ID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" WorkUnitID="{309AF5DE-031F-4CE0-9B9B-C0A536275343}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="assault_rifle_fire_loop" ID="{B0EE0219-4294-4CF1-BBE4-488B9581490B}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="assault_rifle_reload" ID="{285E2440-C163-4D0E-80F0-C6F4B6C38974}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="impact" ID="{CE51113D-824B-4D11-89F3-37CC577A4CF4}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="footsteps" ID="{707B1BD1-3AD6-4D3C-BD2B-E95AB0143F77}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Default Work Unit" ID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="foley" ID="{8591A29B-C5BE-4DCA-89FD-89479075ED3F}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="jump_foley" ID="{9098A988-43E1-4DD2-A6E9-343DEB8CDF29}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="assault_rifle" ID="{95846CDA-D9B9-4E48-B891-347C2C5293E9}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="assault_rifle" ID="{1223DB89-07E3-4E9E-A843-FDA964D7503F}" WorkUnitID="{D4C16981-71D1-4D87-BB67-E0A6E3B0A7BA}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

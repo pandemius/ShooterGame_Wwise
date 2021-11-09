@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E99E0B5C-D071-4FFF-A09B-9410DED972E7}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{E99E0B5C-D071-4FFF-A09B-9410DED972E7}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="amb_state" ID="{52BBD7E9-BD73-4CB2-BDCB-E8F694DF1AFF}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="25"/>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="5"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{6B2647AF-3986-498D-BB94-7E855F3A80CF}"/>
+						<State Name="stone_inside" ID="{1F89355D-5960-45B5-B00C-C525B7AB7650}"/>
+						<State Name="stone_outside" ID="{F4A16C01-07F6-4B0F-A901-41FD0C2609A4}"/>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="stone_outside" ID="{F4A16C01-07F6-4B0F-A901-41FD0C2609A4}"/>
+							<EndState Name="stone_inside" ID="{1F89355D-5960-45B5-B00C-C525B7AB7650}"/>
+							<Time>5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="stone_inside" ID="{1F89355D-5960-45B5-B00C-C525B7AB7650}"/>
+							<EndState Name="stone_outside" ID="{F4A16C01-07F6-4B0F-A901-41FD0C2609A4}"/>
+							<Time>5</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

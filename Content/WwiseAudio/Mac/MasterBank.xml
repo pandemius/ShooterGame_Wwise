@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>D:\Media\Projects\Unreal_Engine\ShooterGame\ShooterGame_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>D:\Media\Projects\Unreal_Engine\ShooterGame\ShooterGame_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Media\Projects\Unreal_Engine\ShooterGame\Content\WwiseAudio\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\Media\Projects\Unreal_Engine\ShooterGame\ShooterGame_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1542108333" GUID="{8AC8180C-B49D-43B6-BAE1-05E8BE7F178F}" Language="SFX" Hash="2960476814">
+			<ObjectPath>\SoundBanks\Default Work Unit\MasterBank</ObjectPath>
+			<ShortName>MasterBank</ShortName>
+			<Path>MasterBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3820953076" Name="assault_rifle_fire_loop_start" ObjectPath="\Events\Default Work Unit\player\assault_rifle\assault_rifle_fire_loop_start" GUID="{B0EE0219-4294-4CF1-BBE4-488B9581490B}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="79866265" Language="SFX">
+							<ShortName>fire_loop_1.wav</ShortName>
+							<Path>SFX\fire_loop_1_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="613212264" Name="assault_rifle_fire_loop_stop" ObjectPath="\Events\Default Work Unit\player\assault_rifle\assault_rifle_fire_loop_stop" GUID="{B26FBD66-9D70-4058-A7FC-4B6A8028A935}" DurationType="OneShot" DurationMin="1.528340" DurationMax="1.817513">
+					<IncludedMemoryFiles>
+						<File Id="64502109" Language="SFX">
+							<ShortName>fire_tail_4.wav</ShortName>
+							<Path>SFX\fire_tail_4_10C4C929.wem</Path>
+						</File>
+						<File Id="258760329" Language="SFX">
+							<ShortName>fire_tail_1.wav</ShortName>
+							<Path>SFX\fire_tail_1_10C4C929.wem</Path>
+						</File>
+						<File Id="790845157" Language="SFX">
+							<ShortName>fire_tail_2.wav</ShortName>
+							<Path>SFX\fire_tail_2_10C4C929.wem</Path>
+						</File>
+						<File Id="911391700" Language="SFX">
+							<ShortName>fire_tail_3.wav</ShortName>
+							<Path>SFX\fire_tail_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4231288869" Name="assault_rifle_fire_tail" ObjectPath="\Events\Default Work Unit\player\assault_rifle\assault_rifle_fire_tail" GUID="{2CB328BA-A2C4-42F2-BB00-4D3B00C4B7D1}" DurationType="OneShot" DurationMin="1.528340" DurationMax="1.817513">
+					<IncludedMemoryFiles>
+						<File Id="64502109" Language="SFX">
+							<ShortName>fire_tail_4.wav</ShortName>
+							<Path>SFX\fire_tail_4_10C4C929.wem</Path>
+						</File>
+						<File Id="258760329" Language="SFX">
+							<ShortName>fire_tail_1.wav</ShortName>
+							<Path>SFX\fire_tail_1_10C4C929.wem</Path>
+						</File>
+						<File Id="790845157" Language="SFX">
+							<ShortName>fire_tail_2.wav</ShortName>
+							<Path>SFX\fire_tail_2_10C4C929.wem</Path>
+						</File>
+						<File Id="911391700" Language="SFX">
+							<ShortName>fire_tail_3.wav</ShortName>
+							<Path>SFX\fire_tail_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1384741713" Name="assault_rifle_out_of_ammo" ObjectPath="\Events\Default Work Unit\player\assault_rifle\assault_rifle_out_of_ammo" GUID="{0BC923CF-21DA-4592-BBDA-FAFF14298919}" DurationType="OneShot" DurationMin="1.666667" DurationMax="1.666667">
+					<IncludedMemoryFiles>
+						<File Id="70920237" Language="SFX">
+							<ShortName>deny_3.wav</ShortName>
+							<Path>SFX\deny_3_10C4C929.wem</Path>
+						</File>
+						<File Id="135957447" Language="SFX">
+							<ShortName>deny_1.wav</ShortName>
+							<Path>SFX\deny_1_10C4C929.wem</Path>
+						</File>
+						<File Id="166664373" Language="SFX">
+							<ShortName>click_4.wav</ShortName>
+							<Path>SFX\click_4_10C4C929.wem</Path>
+						</File>
+						<File Id="239784683" Language="SFX">
+							<ShortName>deny_2.wav</ShortName>
+							<Path>SFX\deny_2_10C4C929.wem</Path>
+						</File>
+						<File Id="419861039" Language="SFX">
+							<ShortName>click_2.wav</ShortName>
+							<Path>SFX\click_2_10C4C929.wem</Path>
+						</File>
+						<File Id="625726228" Language="SFX">
+							<ShortName>click_1.wav</ShortName>
+							<Path>SFX\click_1_10C4C929.wem</Path>
+						</File>
+						<File Id="712633453" Language="SFX">
+							<ShortName>click_3.wav</ShortName>
+							<Path>SFX\click_3_10C4C929.wem</Path>
+						</File>
+						<File Id="988305540" Language="SFX">
+							<ShortName>deny_4.wav</ShortName>
+							<Path>SFX\deny_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1010747703" Name="assault_rifle_reload" ObjectPath="\Events\Default Work Unit\player\assault_rifle\assault_rifle_reload" GUID="{285E2440-C163-4D0E-80F0-C6F4B6C38974}" DurationType="OneShot" DurationMin="1.331419" DurationMax="1.882911">
+					<IncludedMemoryFiles>
+						<File Id="25678859" Language="SFX">
+							<ShortName>reload_release_1.wav</ShortName>
+							<Path>SFX\reload_release_1_10C4C929.wem</Path>
+						</File>
+						<File Id="50498202" Language="SFX">
+							<ShortName>reload_slide_1.wav</ShortName>
+							<Path>SFX\reload_slide_1_10C4C929.wem</Path>
+						</File>
+						<File Id="59001690" Language="SFX">
+							<ShortName>reload_mechanical_2.wav</ShortName>
+							<Path>SFX\reload_mechanical_2_10C4C929.wem</Path>
+						</File>
+						<File Id="257381653" Language="SFX">
+							<ShortName>reload_slide_3.wav</ShortName>
+							<Path>SFX\reload_slide_3_10C4C929.wem</Path>
+						</File>
+						<File Id="304643082" Language="SFX">
+							<ShortName>reload_release_4.wav</ShortName>
+							<Path>SFX\reload_release_4_10C4C929.wem</Path>
+						</File>
+						<File Id="316571774" Language="SFX">
+							<ShortName>reload_slide_2.wav</ShortName>
+							<Path>SFX\reload_slide_2_10C4C929.wem</Path>
+						</File>
+						<File Id="319689713" Language="SFX">
+							<ShortName>reload_mechanical_4.wav</ShortName>
+							<Path>SFX\reload_mechanical_4_10C4C929.wem</Path>
+						</File>
+						<File Id="324885217" Language="SFX">
+							<ShortName>reload_release_2.wav</ShortName>
+							<Path>SFX\reload_release_2_10C4C929.wem</Path>
+						</File>
+						<File Id="376419121" Language="SFX">
+							<ShortName>reload_slide_4.wav</ShortName>
+							<Path>SFX\reload_slide_4_10C4C929.wem</Path>
+						</File>
+						<File Id="389045501" Language="SFX">
+							<ShortName>reload_insert_4.wav</ShortName>
+							<Path>SFX\reload_insert_4_10C4C929.wem</Path>
+						</File>
+						<File Id="494868748" Language="SFX">
+							<ShortName>reload_insert_1.wav</ShortName>
+							<Path>SFX\reload_insert_1_10C4C929.wem</Path>
+						</File>
+						<File Id="496430539" Language="SFX">
+							<ShortName>reload_insert_3.wav</ShortName>
+							<Path>SFX\reload_insert_3_10C4C929.wem</Path>
+						</File>
+						<File Id="529465192" Language="SFX">
+							<ShortName>reload_mechanical_3.wav</ShortName>
+							<Path>SFX\reload_mechanical_3_10C4C929.wem</Path>
+						</File>
+						<File Id="1003877705" Language="SFX">
+							<ShortName>reload_mechanical_1.wav</ShortName>
+							<Path>SFX\reload_mechanical_1_10C4C929.wem</Path>
+						</File>
+						<File Id="1058338122" Language="SFX">
+							<ShortName>reload_release_3.wav</ShortName>
+							<Path>SFX\reload_release_3_10C4C929.wem</Path>
+						</File>
+						<File Id="1068648491" Language="SFX">
+							<ShortName>reload_insert_2.wav</ShortName>
+							<Path>SFX\reload_insert_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1936185617" Name="Test_Sound" ObjectPath="\Events\Default Work Unit\Test_Sound" GUID="{981FB040-723E-4628-91E6-1DDE1FD64F08}" DurationType="OneShot" DurationMin="1.847729" DurationMax="2.014073">
+					<IncludedMemoryFiles>
+						<File Id="317557011" Language="SFX">
+							<ShortName>sx_player_rifle_shot_02.wav</ShortName>
+							<Path>SFX\sx_player_rifle_shot_02_10C4C929.wem</Path>
+						</File>
+						<File Id="592127942" Language="SFX">
+							<ShortName>sx_player_rifle_shot_03.wav</ShortName>
+							<Path>SFX\sx_player_rifle_shot_03_10C4C929.wem</Path>
+						</File>
+						<File Id="920067177" Language="SFX">
+							<ShortName>sx_player_rifle_shot_01.wav</ShortName>
+							<Path>SFX\sx_player_rifle_shot_01_B7D5A31C.wem</Path>
+						</File>
+						<File Id="977690628" Language="SFX">
+							<ShortName>sx_player_rifle_shot_04.wav</ShortName>
+							<Path>SFX\sx_player_rifle_shot_04_10C4C929.wem</Path>
+						</File>
+						<File Id="993762301" Language="SFX">
+							<ShortName>sx_player_rifle_shot_05.wav</ShortName>
+							<Path>SFX\sx_player_rifle_shot_05_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

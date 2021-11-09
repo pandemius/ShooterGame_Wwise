@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\arawi\Downloads\ShooterGame\ShooterGame_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="613803077">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="2477241980" Name="hall_close_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\hall_close_reverb" GUID="{6930D00A-CCCE-4359-A576-242E51C15403}"/>
+				<AuxBus Id="4162753235" Name="hall_reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\hall_reverb" GUID="{F17EB7E5-BB9F-4010-A93A-6FB1352C4AA4}"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+		<SoundBank Id="1542108333" GUID="{8AC8180C-B49D-43B6-BAE1-05E8BE7F178F}" Language="SFX" Hash="2109596375">
+			<ObjectPath>\SoundBanks\Default Work Unit\MasterBank</ObjectPath>
+			<ShortName>MasterBank</ShortName>
+			<Path>MasterBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1128978829" Name="ambience_hall" ObjectPath="\Events\Default Work Unit\2D\AMB\ambience_hall" GUID="{99D83E98-8DDF-40C9-9601-27020D825D89}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="55783991" Language="SFX">
+							<ShortName>rock_slide_7.wav</ShortName>
+							<Path>SFX\rock_slide_7_10C4C929.wem</Path>
+						</File>
+						<File Id="130754948" Language="SFX">
+							<ShortName>rock_slide_8.wav</ShortName>
+							<Path>SFX\rock_slide_8_10C4C929.wem</Path>
+						</File>
+						<File Id="170676526" Language="SFX">
+							<ShortName>rock_slide_3.wav</ShortName>
+							<Path>SFX\rock_slide_3_10C4C929.wem</Path>
+						</File>
+						<File Id="226513108" Language="SFX">
+							<ShortName>rock_slide_6.wav</ShortName>
+							<Path>SFX\rock_slide_6_10C4C929.wem</Path>
+						</File>
+						<File Id="407331727" Language="SFX">
+							<ShortName>rock_slide_1.wav</ShortName>
+							<Path>SFX\rock_slide_1_10C4C929.wem</Path>
+						</File>
+						<File Id="693775138" Language="SFX">
+							<ShortName>hall_high_loop.wav</ShortName>
+							<Path>SFX\hall_high_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="697008406" Language="SFX">
+							<ShortName>hall_low_loop.wav</ShortName>
+							<Path>SFX\hall_low_loop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="715091538" Language="SFX">
+							<ShortName>rock_slide_2.wav</ShortName>
+							<Path>SFX\rock_slide_2_10C4C929.wem</Path>
+						</File>
+						<File Id="865124433" Language="SFX">
+							<ShortName>rock_slide_4.wav</ShortName>
+							<Path>SFX\rock_slide_4_10C4C929.wem</Path>
+						</File>
+						<File Id="995336873" Language="SFX">
+							<ShortName>rock_slide_5.wav</ShortName>
+							<Path>SFX\rock_slide_5_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3974943475" Name="ambience_stone" ObjectPath="\Events\Default Work Unit\2D\AMB\ambience_stone" GUID="{F889FF6A-2721-4449-9966-F1C874DBEE78}" MaxAttenuation="4500.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="94113153" Language="SFX">
+							<ShortName>stone_loop.wav</ShortName>
+							<Path>SFX\stone_loop_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4253579710" Name="ammo_pickup" ObjectPath="\Events\Default Work Unit\3D\pickups\ammo_pickup" GUID="{B8C6F292-9DB7-4A3C-9EAC-51C82B2B3F34}" MaxAttenuation="3500.000000" DurationType="OneShot" DurationMin="0.680798" DurationMax="1.020045">
+					<IncludedMemoryFiles>
+						<File Id="285762672" Language="SFX">
+							<ShortName>ammo_pickup_4.wav</ShortName>
+							<Path>SFX\ammo_pickup_4_10C4C929.wem</Path>
+						</File>
+						<File Id="454823406" Language="SFX">
+							<ShortName>ammo_pickup_1.wav</ShortName>
+							<Path>SFX\ammo_pickup_1_10C4C929.wem</Path>
+						</File>
+						<File Id="815359012" Language="SFX">
+							<ShortName>ammo_pickup_3.wav</ShortName>
+							<Path>SFX\ammo_pickup_3_10C4C929.wem</Path>
+						</File>
+						<File Id="938063428" Language="SFX">
+							<ShortName>ammo_pickup_2.wav</ShortName>
+							<Path>SFX\ammo_pickup_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="838803493" Name="assault_rifle_fire_loop" ObjectPath="\Events\Default Work Unit\2D\player\weapon\assault_rifle\assault_rifle_fire_loop" GUID="{B0EE0219-4294-4CF1-BBE4-488B9581490B}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="79866265" Language="SFX">
+							<ShortName>fire_loop_1.wav</ShortName>
+							<Path>SFX\fire_loop_1_C5579977.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4231288869" Name="assault_rifle_fire_tail" ObjectPath="\Events\Default Work Unit\2D\player\weapon\assault_rifle\assault_rifle_fire_tail" GUID="{2CB328BA-A2C4-42F2-BB00-4D3B00C4B7D1}" DurationType="OneShot" DurationMin="3.154583" DurationMax="3.313250">
+					<IncludedMemoryFiles>
+						<File Id="64502109" Language="SFX">
+							<ShortName>fire_tail_4.wav</ShortName>
+							<Path>SFX\fire_tail_4_10C4C929.wem</Path>
+						</File>
+						<File Id="225874010" Language="SFX">
+							<ShortName>fire_shot_4.wav</ShortName>
+							<Path>SFX\fire_shot_4_10C4C929.wem</Path>
+						</File>
+						<File Id="258760329" Language="SFX">
+							<ShortName>fire_tail_1.wav</ShortName>
+							<Path>SFX\fire_tail_1_10C4C929.wem</Path>
+						</File>
+						<File Id="326816402" Language="SFX">
+							<ShortName>fire_shot_2.wav</ShortName>
+							<Path>SFX\fire_shot_2_10C4C929.wem</Path>
+						</File>
+						<File Id="343398671" Language="SFX">
+							<ShortName>fire_shot_1.wav</ShortName>
+							<Path>SFX\fire_shot_1_10C4C929.wem</Path>
+						</File>
+						<File Id="555596682" Language="SFX">
+							<ShortName>fire_single_4.wav</ShortName>
+							<Path>SFX\fire_single_4_10C4C929.wem</Path>
+						</File>
+						<File Id="616110118" Language="SFX">
+							<ShortName>fire_shot_3.wav</ShortName>
+							<Path>SFX\fire_shot_3_10C4C929.wem</Path>
+						</File>
+						<File Id="790845157" Language="SFX">
+							<ShortName>fire_tail_2.wav</ShortName>
+							<Path>SFX\fire_tail_2_10C4C929.wem</Path>
+						</File>
+						<File Id="911391700" Language="SFX">
+							<ShortName>fire_tail_3.wav</ShortName>
+							<Path>SFX\fire_tail_3_10C4C929.wem</Path>
+						</File>
+						<File Id="974242601" Language="SFX">
+							<ShortName>fire_single_2.wav</ShortName>
+							<Path>SFX\fire_single_2_10C4C929.wem</Path>
+						</File>
+						<File Id="988198231" Language="SFX">
+							<ShortName>fire_single_3.wav</ShortName>
+							<Path>SFX\fire_single_3_10C4C929.wem</Path>
+						</File>
+						<File Id="1035534395" Language="SFX">
+							<ShortName>fire_single_1.wav</ShortName>
+							<Path>SFX\fire_single_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3503616900" Name="assault_rifle_impact_concrete" ObjectPath="\Events\Default Work Unit\3D\weapon\assault_rifle\impact\assault_rifle_impact_concrete" GUID="{B63150E4-39E9-4033-B590-AF3412026C55}" MaxAttenuation="3500.000000" DurationType="OneShot" DurationMin="0.345378" DurationMax="2.061883">
+					<IncludedMemoryFiles>
+						<File Id="21665775" Language="SFX">
+							<ShortName>ricochet_6.wav</ShortName>
+							<Path>SFX\ricochet_6_10C4C929.wem</Path>
+						</File>
+						<File Id="71329987" Language="SFX">
+							<ShortName>ricochet_4.wav</ShortName>
+							<Path>SFX\ricochet_4_10C4C929.wem</Path>
+						</File>
+						<File Id="89443182" Language="SFX">
+							<ShortName>ricochet_7.wav</ShortName>
+							<Path>SFX\ricochet_7_10C4C929.wem</Path>
+						</File>
+						<File Id="104794304" Language="SFX">
+							<ShortName>cement_4.wav</ShortName>
+							<Path>SFX\cement_4_2C4B0713.wem</Path>
+						</File>
+						<File Id="304018722" Language="SFX">
+							<ShortName>ricochet_2.wav</ShortName>
+							<Path>SFX\ricochet_2_10C4C929.wem</Path>
+						</File>
+						<File Id="309106119" Language="SFX">
+							<ShortName>ricochet_8.wav</ShortName>
+							<Path>SFX\ricochet_8_10C4C929.wem</Path>
+						</File>
+						<File Id="394426679" Language="SFX">
+							<ShortName>cement_2.wav</ShortName>
+							<Path>SFX\cement_2_BB19479A.wem</Path>
+						</File>
+						<File Id="486010214" Language="SFX">
+							<ShortName>ricochet_5.wav</ShortName>
+							<Path>SFX\ricochet_5_10C4C929.wem</Path>
+						</File>
+						<File Id="493597270" Language="SFX">
+							<ShortName>cement_3.wav</ShortName>
+							<Path>SFX\cement_3_627E81AF.wem</Path>
+						</File>
+						<File Id="594898500" Language="SFX">
+							<ShortName>ricochet_3.wav</ShortName>
+							<Path>SFX\ricochet_3_10C4C929.wem</Path>
+						</File>
+						<File Id="605644934" Language="SFX">
+							<ShortName>cement_6.wav</ShortName>
+							<Path>SFX\cement_6_0655716E.wem</Path>
+						</File>
+						<File Id="615290730" Language="SFX">
+							<ShortName>cement_7.wav</ShortName>
+							<Path>SFX\cement_7_7D29E351.wem</Path>
+						</File>
+						<File Id="747773939" Language="SFX">
+							<ShortName>cement_8.wav</ShortName>
+							<Path>SFX\cement_8_8F1F7220.wem</Path>
+						</File>
+						<File Id="948098748" Language="SFX">
+							<ShortName>ricochet_1.wav</ShortName>
+							<Path>SFX\ricochet_1_10C4C929.wem</Path>
+						</File>
+						<File Id="954924757" Language="SFX">
+							<ShortName>cement_5.wav</ShortName>
+							<Path>SFX\cement_5_D5026C60.wem</Path>
+						</File>
+						<File Id="1054495462" Language="SFX">
+							<ShortName>cement_1.wav</ShortName>
+							<Path>SFX\cement_1_DE3AB924.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1384741713" Name="assault_rifle_out_of_ammo" ObjectPath="\Events\Default Work Unit\2D\player\weapon\assault_rifle\assault_rifle_out_of_ammo" GUID="{0BC923CF-21DA-4592-BBDA-FAFF14298919}" DurationType="OneShot" DurationMin="1.666667" DurationMax="1.666667">
+					<IncludedMemoryFiles>
+						<File Id="10343609" Language="SFX">
+							<ShortName>mechanical_3.wav</ShortName>
+							<Path>SFX\mechanical_3_10C4C929.wem</Path>
+						</File>
+						<File Id="70920237" Language="SFX">
+							<ShortName>deny_3.wav</ShortName>
+							<Path>SFX\deny_3_10C4C929.wem</Path>
+						</File>
+						<File Id="135957447" Language="SFX">
+							<ShortName>deny_1.wav</ShortName>
+							<Path>SFX\deny_1_10C4C929.wem</Path>
+						</File>
+						<File Id="150212201" Language="SFX">
+							<ShortName>mechanical_1.wav</ShortName>
+							<Path>SFX\mechanical_1_10C4C929.wem</Path>
+						</File>
+						<File Id="166664373" Language="SFX">
+							<ShortName>click_4.wav</ShortName>
+							<Path>SFX\click_4_10C4C929.wem</Path>
+						</File>
+						<File Id="239784683" Language="SFX">
+							<ShortName>deny_2.wav</ShortName>
+							<Path>SFX\deny_2_10C4C929.wem</Path>
+						</File>
+						<File Id="291187035" Language="SFX">
+							<ShortName>mechanical_2.wav</ShortName>
+							<Path>SFX\mechanical_2_10C4C929.wem</Path>
+						</File>
+						<File Id="419861039" Language="SFX">
+							<ShortName>click_2.wav</ShortName>
+							<Path>SFX\click_2_10C4C929.wem</Path>
+						</File>
+						<File Id="625726228" Language="SFX">
+							<ShortName>click_1.wav</ShortName>
+							<Path>SFX\click_1_10C4C929.wem</Path>
+						</File>
+						<File Id="678872241" Language="SFX">
+							<ShortName>mechanical_4.wav</ShortName>
+							<Path>SFX\mechanical_4_10C4C929.wem</Path>
+						</File>
+						<File Id="712633453" Language="SFX">
+							<ShortName>click_3.wav</ShortName>
+							<Path>SFX\click_3_10C4C929.wem</Path>
+						</File>
+						<File Id="988305540" Language="SFX">
+							<ShortName>deny_4.wav</ShortName>
+							<Path>SFX\deny_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1010747703" Name="assault_rifle_reload" ObjectPath="\Events\Default Work Unit\2D\player\weapon\assault_rifle\assault_rifle_reload" GUID="{285E2440-C163-4D0E-80F0-C6F4B6C38974}" DurationType="OneShot" DurationMin="1.293517" DurationMax="1.938085">
+					<IncludedMemoryFiles>
+						<File Id="25678859" Language="SFX">
+							<ShortName>reload_release_1.wav</ShortName>
+							<Path>SFX\reload_release_1_10C4C929.wem</Path>
+						</File>
+						<File Id="50498202" Language="SFX">
+							<ShortName>reload_slide_1.wav</ShortName>
+							<Path>SFX\reload_slide_1_10C4C929.wem</Path>
+						</File>
+						<File Id="59001690" Language="SFX">
+							<ShortName>reload_mechanical_2.wav</ShortName>
+							<Path>SFX\reload_mechanical_2_10C4C929.wem</Path>
+						</File>
+						<File Id="257381653" Language="SFX">
+							<ShortName>reload_slide_3.wav</ShortName>
+							<Path>SFX\reload_slide_3_10C4C929.wem</Path>
+						</File>
+						<File Id="304643082" Language="SFX">
+							<ShortName>reload_release_4.wav</ShortName>
+							<Path>SFX\reload_release_4_10C4C929.wem</Path>
+						</File>
+						<File Id="316571774" Language="SFX">
+							<ShortName>reload_slide_2.wav</ShortName>
+							<Path>SFX\reload_slide_2_10C4C929.wem</Path>
+						</File>
+						<File Id="319689713" Language="SFX">
+							<ShortName>reload_mechanical_4.wav</ShortName>
+							<Path>SFX\reload_mechanical_4_10C4C929.wem</Path>
+						</File>
+						<File Id="324885217" Language="SFX">
+							<ShortName>reload_release_2.wav</ShortName>
+							<Path>SFX\reload_release_2_10C4C929.wem</Path>
+						</File>
+						<File Id="376419121" Language="SFX">
+							<ShortName>reload_slide_4.wav</ShortName>
+							<Path>SFX\reload_slide_4_10C4C929.wem</Path>
+						</File>
+						<File Id="389045501" Language="SFX">
+							<ShortName>reload_insert_4.wav</ShortName>
+							<Path>SFX\reload_insert_4_10C4C929.wem</Path>
+						</File>
+						<File Id="494868748" Language="SFX">
+							<ShortName>reload_insert_1.wav</ShortName>
+							<Path>SFX\reload_insert_1_10C4C929.wem</Path>
+						</File>
+						<File Id="496430539" Language="SFX">
+							<ShortName>reload_insert_3.wav</ShortName>
+							<Path>SFX\reload_insert_3_10C4C929.wem</Path>
+						</File>
+						<File Id="529465192" Language="SFX">
+							<ShortName>reload_mechanical_3.wav</ShortName>
+							<Path>SFX\reload_mechanical_3_10C4C929.wem</Path>
+						</File>
+						<File Id="1003877705" Language="SFX">
+							<ShortName>reload_mechanical_1.wav</ShortName>
+							<Path>SFX\reload_mechanical_1_10C4C929.wem</Path>
+						</File>
+						<File Id="1058338122" Language="SFX">
+							<ShortName>reload_release_3.wav</ShortName>
+							<Path>SFX\reload_release_3_10C4C929.wem</Path>
+						</File>
+						<File Id="1068648491" Language="SFX">
+							<ShortName>reload_insert_2.wav</ShortName>
+							<Path>SFX\reload_insert_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2385628198" Name="footsteps" ObjectPath="\Events\Default Work Unit\3D\footsteps\footsteps" GUID="{BA9DA55E-D816-411F-A60F-8569FD36E138}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1682879582" Name="footsteps_foley" ObjectPath="\Events\Default Work Unit\2D\player\foley\footsteps_foley" GUID="{A0D3DD3E-EBD0-4AEA-84F0-F1F1E44C3973}" DurationType="OneShot" DurationMin="0.680798" DurationMax="1.020045">
+					<IncludedMemoryFiles>
+						<File Id="60273400" Language="SFX">
+							<ShortName>servo_4.wav</ShortName>
+							<Path>SFX\servo_4_10C4C929.wem</Path>
+						</File>
+						<File Id="187636090" Language="SFX">
+							<ShortName>servo_3.wav</ShortName>
+							<Path>SFX\servo_3_10C4C929.wem</Path>
+						</File>
+						<File Id="301893826" Language="SFX">
+							<ShortName>servo_6.wav</ShortName>
+							<Path>SFX\servo_6_10C4C929.wem</Path>
+						</File>
+						<File Id="326075540" Language="SFX">
+							<ShortName>cloth_movement_6.wav</ShortName>
+							<Path>SFX\cloth_movement_6_10C4C929.wem</Path>
+						</File>
+						<File Id="432095023" Language="SFX">
+							<ShortName>cloth_movement_3.wav</ShortName>
+							<Path>SFX\cloth_movement_3_10C4C929.wem</Path>
+						</File>
+						<File Id="454369999" Language="SFX">
+							<ShortName>metal_impact_5.wav</ShortName>
+							<Path>SFX\metal_impact_5_10C4C929.wem</Path>
+						</File>
+						<File Id="505431248" Language="SFX">
+							<ShortName>servo_2.wav</ShortName>
+							<Path>SFX\servo_2_10C4C929.wem</Path>
+						</File>
+						<File Id="590105002" Language="SFX">
+							<ShortName>servo_1.wav</ShortName>
+							<Path>SFX\servo_1_10C4C929.wem</Path>
+						</File>
+						<File Id="637915706" Language="SFX">
+							<ShortName>metal_impact_4.wav</ShortName>
+							<Path>SFX\metal_impact_4_10C4C929.wem</Path>
+						</File>
+						<File Id="652960067" Language="SFX">
+							<ShortName>cloth_movement_2.wav</ShortName>
+							<Path>SFX\cloth_movement_2_10C4C929.wem</Path>
+						</File>
+						<File Id="709740865" Language="SFX">
+							<ShortName>metal_impact_6.wav</ShortName>
+							<Path>SFX\metal_impact_6_10C4C929.wem</Path>
+						</File>
+						<File Id="743354021" Language="SFX">
+							<ShortName>servo_5.wav</ShortName>
+							<Path>SFX\servo_5_10C4C929.wem</Path>
+						</File>
+						<File Id="815973839" Language="SFX">
+							<ShortName>metal_impact_2.wav</ShortName>
+							<Path>SFX\metal_impact_2_10C4C929.wem</Path>
+						</File>
+						<File Id="880232726" Language="SFX">
+							<ShortName>cloth_movement_5.wav</ShortName>
+							<Path>SFX\cloth_movement_5_10C4C929.wem</Path>
+						</File>
+						<File Id="887230976" Language="SFX">
+							<ShortName>cloth_movement_4.wav</ShortName>
+							<Path>SFX\cloth_movement_4_10C4C929.wem</Path>
+						</File>
+						<File Id="967127523" Language="SFX">
+							<ShortName>metal_impact_1.wav</ShortName>
+							<Path>SFX\metal_impact_1_10C4C929.wem</Path>
+						</File>
+						<File Id="983338226" Language="SFX">
+							<ShortName>cloth_movement_1.wav</ShortName>
+							<Path>SFX\cloth_movement_1_10C4C929.wem</Path>
+						</File>
+						<File Id="996729341" Language="SFX">
+							<ShortName>metal_impact_3.wav</ShortName>
+							<Path>SFX\metal_impact_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3212347026" Name="footsteps_landing" ObjectPath="\Events\Default Work Unit\3D\footsteps\footsteps_landing" GUID="{96BB0B4F-1BFD-4BDC-83F3-3F0898468554}" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000">
+					<DefaultSwitchValue>{24186153-D562-4EEE-A15F-0BE816EB9A73}</DefaultSwitchValue>
+					<SwitchContainers/>
+				</Event>
+				<Event Id="3015445330" Name="footsteps_landing_foley" ObjectPath="\Events\Default Work Unit\2D\player\foley\footsteps_landing_foley" GUID="{85B2B95F-1ADA-44EA-B4DA-7240A5F38DEB}" DurationType="OneShot" DurationMin="0.680798" DurationMax="1.080700">
+					<IncludedMemoryFiles>
+						<File Id="60273400" Language="SFX">
+							<ShortName>servo_4.wav</ShortName>
+							<Path>SFX\servo_4_10C4C929.wem</Path>
+						</File>
+						<File Id="145565209" Language="SFX">
+							<ShortName>landing_boom_4.wav</ShortName>
+							<Path>SFX\landing_boom_4_10C4C929.wem</Path>
+						</File>
+						<File Id="187636090" Language="SFX">
+							<ShortName>servo_3.wav</ShortName>
+							<Path>SFX\servo_3_10C4C929.wem</Path>
+						</File>
+						<File Id="227116254" Language="SFX">
+							<ShortName>landing_boom_1.wav</ShortName>
+							<Path>SFX\landing_boom_1_10C4C929.wem</Path>
+						</File>
+						<File Id="292703701" Language="SFX">
+							<ShortName>landing_boom_3.wav</ShortName>
+							<Path>SFX\landing_boom_3_10C4C929.wem</Path>
+						</File>
+						<File Id="301893826" Language="SFX">
+							<ShortName>servo_6.wav</ShortName>
+							<Path>SFX\servo_6_10C4C929.wem</Path>
+						</File>
+						<File Id="326075540" Language="SFX">
+							<ShortName>cloth_movement_6.wav</ShortName>
+							<Path>SFX\cloth_movement_6_10C4C929.wem</Path>
+						</File>
+						<File Id="432095023" Language="SFX">
+							<ShortName>cloth_movement_3.wav</ShortName>
+							<Path>SFX\cloth_movement_3_10C4C929.wem</Path>
+						</File>
+						<File Id="454369999" Language="SFX">
+							<ShortName>metal_impact_5.wav</ShortName>
+							<Path>SFX\metal_impact_5_10C4C929.wem</Path>
+						</File>
+						<File Id="505431248" Language="SFX">
+							<ShortName>servo_2.wav</ShortName>
+							<Path>SFX\servo_2_10C4C929.wem</Path>
+						</File>
+						<File Id="579901832" Language="SFX">
+							<ShortName>footsteps_landing_1.wav</ShortName>
+							<Path>SFX\footsteps_landing_1_B86CDE61.wem</Path>
+						</File>
+						<File Id="590105002" Language="SFX">
+							<ShortName>servo_1.wav</ShortName>
+							<Path>SFX\servo_1_10C4C929.wem</Path>
+						</File>
+						<File Id="637915706" Language="SFX">
+							<ShortName>metal_impact_4.wav</ShortName>
+							<Path>SFX\metal_impact_4_10C4C929.wem</Path>
+						</File>
+						<File Id="652960067" Language="SFX">
+							<ShortName>cloth_movement_2.wav</ShortName>
+							<Path>SFX\cloth_movement_2_10C4C929.wem</Path>
+						</File>
+						<File Id="671085990" Language="SFX">
+							<ShortName>footsteps_landing_4.wav</ShortName>
+							<Path>SFX\footsteps_landing_4_803D3743.wem</Path>
+						</File>
+						<File Id="709740865" Language="SFX">
+							<ShortName>metal_impact_6.wav</ShortName>
+							<Path>SFX\metal_impact_6_10C4C929.wem</Path>
+						</File>
+						<File Id="743354021" Language="SFX">
+							<ShortName>servo_5.wav</ShortName>
+							<Path>SFX\servo_5_10C4C929.wem</Path>
+						</File>
+						<File Id="746301647" Language="SFX">
+							<ShortName>landing_boom_2.wav</ShortName>
+							<Path>SFX\landing_boom_2_10C4C929.wem</Path>
+						</File>
+						<File Id="815973839" Language="SFX">
+							<ShortName>metal_impact_2.wav</ShortName>
+							<Path>SFX\metal_impact_2_10C4C929.wem</Path>
+						</File>
+						<File Id="880232726" Language="SFX">
+							<ShortName>cloth_movement_5.wav</ShortName>
+							<Path>SFX\cloth_movement_5_10C4C929.wem</Path>
+						</File>
+						<File Id="887230976" Language="SFX">
+							<ShortName>cloth_movement_4.wav</ShortName>
+							<Path>SFX\cloth_movement_4_10C4C929.wem</Path>
+						</File>
+						<File Id="943178889" Language="SFX">
+							<ShortName>footsteps_landing_3.wav</ShortName>
+							<Path>SFX\footsteps_landing_3_CA14F84F.wem</Path>
+						</File>
+						<File Id="967127523" Language="SFX">
+							<ShortName>metal_impact_1.wav</ShortName>
+							<Path>SFX\metal_impact_1_10C4C929.wem</Path>
+						</File>
+						<File Id="983338226" Language="SFX">
+							<ShortName>cloth_movement_1.wav</ShortName>
+							<Path>SFX\cloth_movement_1_10C4C929.wem</Path>
+						</File>
+						<File Id="996729341" Language="SFX">
+							<ShortName>metal_impact_3.wav</ShortName>
+							<Path>SFX\metal_impact_3_10C4C929.wem</Path>
+						</File>
+						<File Id="1065935139" Language="SFX">
+							<ShortName>footsteps_landing_2.wav</ShortName>
+							<Path>SFX\footsteps_landing_2_0167EF37.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{24186153-D562-4EEE-A15F-0BE816EB9A73}</DefaultSwitchValue>
+					<SwitchContainers/>
+				</Event>
+				<Event Id="3731941266" Name="health_pickup" ObjectPath="\Events\Default Work Unit\3D\pickups\health_pickup" GUID="{5233DAE1-03E9-42F3-A373-19C24CEAE2FB}" MaxAttenuation="3500.000000" DurationType="OneShot" DurationMin="1.021197" DurationMax="1.530067">
+					<IncludedMemoryFiles>
+						<File Id="109038087" Language="SFX">
+							<ShortName>air_2.wav</ShortName>
+							<Path>SFX\air_2_10C4C929.wem</Path>
+						</File>
+						<File Id="411113036" Language="SFX">
+							<ShortName>insert_2.wav</ShortName>
+							<Path>SFX\insert_2_10C4C929.wem</Path>
+						</File>
+						<File Id="463138948" Language="SFX">
+							<ShortName>air_4.wav</ShortName>
+							<Path>SFX\air_4_10C4C929.wem</Path>
+						</File>
+						<File Id="814382688" Language="SFX">
+							<ShortName>air_3.wav</ShortName>
+							<Path>SFX\air_3_10C4C929.wem</Path>
+						</File>
+						<File Id="876936172" Language="SFX">
+							<ShortName>insert_1.wav</ShortName>
+							<Path>SFX\insert_1_10C4C929.wem</Path>
+						</File>
+						<File Id="1015892807" Language="SFX">
+							<ShortName>air_1.wav</ShortName>
+							<Path>SFX\air_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3785878977" Name="jump_foley" ObjectPath="\Events\Default Work Unit\2D\player\foley\jump_foley" GUID="{9098A988-43E1-4DD2-A6E9-343DEB8CDF29}" DurationType="OneShot" DurationMin="0.963882" DurationMax="1.621050">
+					<IncludedMemoryFiles>
+						<File Id="85821049" Language="SFX">
+							<ShortName>jump_whoosh_4.wav</ShortName>
+							<Path>SFX\jump_whoosh_4_10C4C929.wem</Path>
+						</File>
+						<File Id="491024929" Language="SFX">
+							<ShortName>jump_foley_2.wav</ShortName>
+							<Path>SFX\jump_foley_2_10C4C929.wem</Path>
+						</File>
+						<File Id="691659575" Language="SFX">
+							<ShortName>jump_foley_4.wav</ShortName>
+							<Path>SFX\jump_foley_4_10C4C929.wem</Path>
+						</File>
+						<File Id="697316785" Language="SFX">
+							<ShortName>jump_whoosh_2.wav</ShortName>
+							<Path>SFX\jump_whoosh_2_10C4C929.wem</Path>
+						</File>
+						<File Id="727635254" Language="SFX">
+							<ShortName>jump_foley_1.wav</ShortName>
+							<Path>SFX\jump_foley_1_10C4C929.wem</Path>
+						</File>
+						<File Id="873097695" Language="SFX">
+							<ShortName>jump_foley_3.wav</ShortName>
+							<Path>SFX\jump_foley_3_10C4C929.wem</Path>
+						</File>
+						<File Id="924240257" Language="SFX">
+							<ShortName>jump_whoosh_1.wav</ShortName>
+							<Path>SFX\jump_whoosh_1_10C4C929.wem</Path>
+						</File>
+						<File Id="1025201768" Language="SFX">
+							<ShortName>jump_whoosh_3.wav</ShortName>
+							<Path>SFX\jump_whoosh_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1563725988" Name="launcher_fire" ObjectPath="\Events\Default Work Unit\2D\player\weapon\launcher\launcher_fire" GUID="{8D78BC6A-AC44-48E0-BA44-675197874614}" DurationType="OneShot" DurationMin="1.307541" DurationMax="2.033561">
+					<IncludedMemoryFiles>
+						<File Id="37698689" Language="SFX">
+							<ShortName>energy_4.wav</ShortName>
+							<Path>SFX\energy_4_10C4C929.wem</Path>
+						</File>
+						<File Id="112790300" Language="SFX">
+							<ShortName>pulse_4.wav</ShortName>
+							<Path>SFX\pulse_4_10C4C929.wem</Path>
+						</File>
+						<File Id="214928936" Language="SFX">
+							<ShortName>pulse_3.wav</ShortName>
+							<Path>SFX\pulse_3_10C4C929.wem</Path>
+						</File>
+						<File Id="294944682" Language="SFX">
+							<ShortName>launch_2.wav</ShortName>
+							<Path>SFX\launch_2_10C4C929.wem</Path>
+						</File>
+						<File Id="302621980" Language="SFX">
+							<ShortName>launch_1.wav</ShortName>
+							<Path>SFX\launch_1_10C4C929.wem</Path>
+						</File>
+						<File Id="428788464" Language="SFX">
+							<ShortName>pulse_2.wav</ShortName>
+							<Path>SFX\pulse_2_10C4C929.wem</Path>
+						</File>
+						<File Id="485953937" Language="SFX">
+							<ShortName>pulse_1.wav</ShortName>
+							<Path>SFX\pulse_1_10C4C929.wem</Path>
+						</File>
+						<File Id="507528725" Language="SFX">
+							<ShortName>energy_1.wav</ShortName>
+							<Path>SFX\energy_1_10C4C929.wem</Path>
+						</File>
+						<File Id="525388586" Language="SFX">
+							<ShortName>energy_2.wav</ShortName>
+							<Path>SFX\energy_2_10C4C929.wem</Path>
+						</File>
+						<File Id="742666864" Language="SFX">
+							<ShortName>launch_4.wav</ShortName>
+							<Path>SFX\launch_4_10C4C929.wem</Path>
+						</File>
+						<File Id="892984190" Language="SFX">
+							<ShortName>energy_3.wav</ShortName>
+							<Path>SFX\energy_3_10C4C929.wem</Path>
+						</File>
+						<File Id="927620530" Language="SFX">
+							<ShortName>launch_3.wav</ShortName>
+							<Path>SFX\launch_3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1703509678" Name="launcher_impact" ObjectPath="\Events\Default Work Unit\3D\weapon\launcher\impact\launcher_impact" GUID="{29B5CD54-9E76-476D-AD4F-4CDA7D76B65E}" MaxAttenuation="15000.000000" DurationType="OneShot" DurationMin="2.083333" DurationMax="2.805123">
+					<IncludedMemoryFiles>
+						<File Id="26930512" Language="SFX">
+							<ShortName>plasma_2.wav</ShortName>
+							<Path>SFX\plasma_2_10C4C929.wem</Path>
+						</File>
+						<File Id="57599933" Language="SFX">
+							<ShortName>explosion_4.wav</ShortName>
+							<Path>SFX\explosion_4_10C4C929.wem</Path>
+						</File>
+						<File Id="139284730" Language="SFX">
+							<ShortName>boom_2.wav</ShortName>
+							<Path>SFX\boom_2_10C4C929.wem</Path>
+						</File>
+						<File Id="163484951" Language="SFX">
+							<ShortName>boom_3.wav</ShortName>
+							<Path>SFX\boom_3_10C4C929.wem</Path>
+						</File>
+						<File Id="357383457" Language="SFX">
+							<ShortName>plasma_3.wav</ShortName>
+							<Path>SFX\plasma_3_10C4C929.wem</Path>
+						</File>
+						<File Id="418874223" Language="SFX">
+							<ShortName>explosion_3.wav</ShortName>
+							<Path>SFX\explosion_3_10C4C929.wem</Path>
+						</File>
+						<File Id="479704476" Language="SFX">
+							<ShortName>boom_1.wav</ShortName>
+							<Path>SFX\boom_1_10C4C929.wem</Path>
+						</File>
+						<File Id="513337803" Language="SFX">
+							<ShortName>plasma_4.wav</ShortName>
+							<Path>SFX\plasma_4_10C4C929.wem</Path>
+						</File>
+						<File Id="531596262" Language="SFX">
+							<ShortName>plasma_1.wav</ShortName>
+							<Path>SFX\plasma_1_10C4C929.wem</Path>
+						</File>
+						<File Id="611240225" Language="SFX">
+							<ShortName>explosion_1.wav</ShortName>
+							<Path>SFX\explosion_1_10C4C929.wem</Path>
+						</File>
+						<File Id="628289351" Language="SFX">
+							<ShortName>boom_4.wav</ShortName>
+							<Path>SFX\boom_4_10C4C929.wem</Path>
+						</File>
+						<File Id="760955078" Language="SFX">
+							<ShortName>explosion_2.wav</ShortName>
+							<Path>SFX\explosion_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3954294831" Name="launcher_insert" ObjectPath="\Events\Default Work Unit\2D\player\weapon\launcher\launcher_reload\launcher_insert" GUID="{75163E7D-E622-4CC4-B81D-0DE553122AB9}" DurationType="OneShot" DurationMin="1.600000" DurationMax="1.979965">
+					<IncludedMemoryFiles>
+						<File Id="872059761" Language="SFX">
+							<ShortName>launcher_insert_3.wav</ShortName>
+							<Path>SFX\launcher_insert_3_6ABD0FE9.wem</Path>
+						</File>
+						<File Id="896914934" Language="SFX">
+							<ShortName>launcher_insert_1.wav</ShortName>
+							<Path>SFX\launcher_insert_1_9485E791.wem</Path>
+						</File>
+						<File Id="960853343" Language="SFX">
+							<ShortName>launcher_insert_4.wav</ShortName>
+							<Path>SFX\launcher_insert_4_6ABD0FE9.wem</Path>
+						</File>
+						<File Id="986071888" Language="SFX">
+							<ShortName>launcher_insert_2.wav</ShortName>
+							<Path>SFX\launcher_insert_2_F0AF28D7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="133070716" Name="launcher_load" ObjectPath="\Events\Default Work Unit\2D\player\weapon\launcher\launcher_reload\launcher_load" GUID="{6AB70961-9A40-4FD0-9E31-6B4C93FF44F4}" DurationType="OneShot" DurationMin="0.833401" DurationMax="1.077574">
+					<IncludedMemoryFiles>
+						<File Id="9196894" Language="SFX">
+							<ShortName>launcher_lock_1.wav</ShortName>
+							<Path>SFX\launcher_lock_1_10C4C929.wem</Path>
+						</File>
+						<File Id="94222991" Language="SFX">
+							<ShortName>launcher_lock_3.wav</ShortName>
+							<Path>SFX\launcher_lock_3_10C4C929.wem</Path>
+						</File>
+						<File Id="322199102" Language="SFX">
+							<ShortName>launcher_lock_4.wav</ShortName>
+							<Path>SFX\launcher_lock_4_10C4C929.wem</Path>
+						</File>
+						<File Id="645468135" Language="SFX">
+							<ShortName>launcher_lock_2.wav</ShortName>
+							<Path>SFX\launcher_lock_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="166625877" Name="launcher_lock" ObjectPath="\Events\Default Work Unit\2D\player\weapon\launcher\launcher_reload\launcher_lock" GUID="{8A1BFBAB-50AD-4B62-9206-DFE6B9739788}" DurationType="OneShot" DurationMin="3.333333" DurationMax="3.333333">
+					<IncludedMemoryFiles>
+						<File Id="63850293" Language="SFX">
+							<ShortName>lock_4.wav</ShortName>
+							<Path>SFX\lock_4_10C4C929.wem</Path>
+						</File>
+						<File Id="400607098" Language="SFX">
+							<ShortName>lock_3.wav</ShortName>
+							<Path>SFX\lock_3_10C4C929.wem</Path>
+						</File>
+						<File Id="943632513" Language="SFX">
+							<ShortName>lock_2.wav</ShortName>
+							<Path>SFX\lock_2_10C4C929.wem</Path>
+						</File>
+						<File Id="980584181" Language="SFX">
+							<ShortName>lock_1.wav</ShortName>
+							<Path>SFX\lock_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1148345285" Name="launcher_projectile" ObjectPath="\Events\Default Work Unit\3D\weapon\launcher\launcher_projectile" GUID="{E303A888-0AE2-4C9E-A072-055BFDB27D0F}" MaxAttenuation="10000.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="279926234" Language="SFX">
+							<ShortName>lunaching_3.wav</ShortName>
+							<Path>SFX\lunaching_3_10C4C929.wem</Path>
+						</File>
+						<File Id="638590618" Language="SFX">
+							<ShortName>projectile_loop_1.wav</ShortName>
+							<Path>SFX\projectile_loop_1_05BB6343.wem</Path>
+						</File>
+						<File Id="661584369" Language="SFX">
+							<ShortName>lunaching_1.wav</ShortName>
+							<Path>SFX\lunaching_1_10C4C929.wem</Path>
+						</File>
+						<File Id="758635576" Language="SFX">
+							<ShortName>lunaching_4.wav</ShortName>
+							<Path>SFX\lunaching_4_10C4C929.wem</Path>
+						</File>
+						<File Id="975912798" Language="SFX">
+							<ShortName>lunaching_2.wav</ShortName>
+							<Path>SFX\lunaching_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2803265243" Name="out_of_ammo_warning" ObjectPath="\Events\Default Work Unit\2D\player\weapon\assault_rifle\out_of_ammo_warning" GUID="{1BB8DE85-91E4-439A-B420-A3669DDA4E67}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="395821982" Language="SFX">
+							<ShortName>out_of_ammo_warning_fast.wav</ShortName>
+							<Path>SFX\out_of_ammo_warning_fast_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1047413517" Language="SFX">
+							<ShortName>out_of_ammo_warning.wav</ShortName>
+							<Path>SFX\out_of_ammo_warning_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4038751939" Name="weapon_aim" ObjectPath="\Events\Default Work Unit\2D\player\weapon\weapon_foley\weapon_aim" GUID="{491EB215-1916-46DE-B59D-B9E3F710C567}" DurationType="OneShot" DurationMin="0.909783" DurationMax="1.717442">
+					<IncludedMemoryFiles>
+						<File Id="38469880" Language="SFX">
+							<ShortName>weapon_aim_3.wav</ShortName>
+							<Path>SFX\weapon_aim_3_10C4C929.wem</Path>
+						</File>
+						<File Id="533352396" Language="SFX">
+							<ShortName>weapon_aim_2.wav</ShortName>
+							<Path>SFX\weapon_aim_2_10C4C929.wem</Path>
+						</File>
+						<File Id="744918593" Language="SFX">
+							<ShortName>weapon_aim_4.wav</ShortName>
+							<Path>SFX\weapon_aim_4_10C4C929.wem</Path>
+						</File>
+						<File Id="923532896" Language="SFX">
+							<ShortName>weapon_aim_1.wav</ShortName>
+							<Path>SFX\weapon_aim_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="943549884" Name="weapon_equip" ObjectPath="\Events\Default Work Unit\2D\player\weapon\weapon_foley\weapon_equip" GUID="{B35097C4-1177-40D3-AB05-81BA848AB430}" DurationType="OneShot" DurationMin="0.642588" DurationMax="1.080700">
+					<IncludedMemoryFiles>
+						<File Id="433847492" Language="SFX">
+							<ShortName>weapon_equip_click_2.wav</ShortName>
+							<Path>SFX\weapon_equip_click_2_10C4C929.wem</Path>
+						</File>
+						<File Id="510142437" Language="SFX">
+							<ShortName>weapon_equip_3.wav</ShortName>
+							<Path>SFX\weapon_equip_3_10C4C929.wem</Path>
+						</File>
+						<File Id="662842201" Language="SFX">
+							<ShortName>weapon_equip_4.wav</ShortName>
+							<Path>SFX\weapon_equip_4_10C4C929.wem</Path>
+						</File>
+						<File Id="779176612" Language="SFX">
+							<ShortName>weapon_equip_1.wav</ShortName>
+							<Path>SFX\weapon_equip_1_10C4C929.wem</Path>
+						</File>
+						<File Id="808642248" Language="SFX">
+							<ShortName>weapon_equip_2.wav</ShortName>
+							<Path>SFX\weapon_equip_2_10C4C929.wem</Path>
+						</File>
+						<File Id="1061454558" Language="SFX">
+							<ShortName>weapon_equip_click_1.wav</ShortName>
+							<Path>SFX\weapon_equip_click_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="60273400" Language="SFX">
+					<ShortName>servo_4.wav</ShortName>
+					<Path>SFX\servo_4_10C4C929.wem</Path>
+				</File>
+				<File Id="85821049" Language="SFX">
+					<ShortName>jump_whoosh_4.wav</ShortName>
+					<Path>SFX\jump_whoosh_4_10C4C929.wem</Path>
+				</File>
+				<File Id="145565209" Language="SFX">
+					<ShortName>landing_boom_4.wav</ShortName>
+					<Path>SFX\landing_boom_4_10C4C929.wem</Path>
+				</File>
+				<File Id="187636090" Language="SFX">
+					<ShortName>servo_3.wav</ShortName>
+					<Path>SFX\servo_3_10C4C929.wem</Path>
+				</File>
+				<File Id="227116254" Language="SFX">
+					<ShortName>landing_boom_1.wav</ShortName>
+					<Path>SFX\landing_boom_1_10C4C929.wem</Path>
+				</File>
+				<File Id="292703701" Language="SFX">
+					<ShortName>landing_boom_3.wav</ShortName>
+					<Path>SFX\landing_boom_3_10C4C929.wem</Path>
+				</File>
+				<File Id="301893826" Language="SFX">
+					<ShortName>servo_6.wav</ShortName>
+					<Path>SFX\servo_6_10C4C929.wem</Path>
+				</File>
+				<File Id="326075540" Language="SFX">
+					<ShortName>cloth_movement_6.wav</ShortName>
+					<Path>SFX\cloth_movement_6_10C4C929.wem</Path>
+				</File>
+				<File Id="432095023" Language="SFX">
+					<ShortName>cloth_movement_3.wav</ShortName>
+					<Path>SFX\cloth_movement_3_10C4C929.wem</Path>
+				</File>
+				<File Id="454369999" Language="SFX">
+					<ShortName>metal_impact_5.wav</ShortName>
+					<Path>SFX\metal_impact_5_10C4C929.wem</Path>
+				</File>
+				<File Id="491024929" Language="SFX">
+					<ShortName>jump_foley_2.wav</ShortName>
+					<Path>SFX\jump_foley_2_10C4C929.wem</Path>
+				</File>
+				<File Id="505431248" Language="SFX">
+					<ShortName>servo_2.wav</ShortName>
+					<Path>SFX\servo_2_10C4C929.wem</Path>
+				</File>
+				<File Id="579901832" Language="SFX">
+					<ShortName>footsteps_landing_1.wav</ShortName>
+					<Path>SFX\footsteps_landing_1_B86CDE61.wem</Path>
+				</File>
+				<File Id="590105002" Language="SFX">
+					<ShortName>servo_1.wav</ShortName>
+					<Path>SFX\servo_1_10C4C929.wem</Path>
+				</File>
+				<File Id="637915706" Language="SFX">
+					<ShortName>metal_impact_4.wav</ShortName>
+					<Path>SFX\metal_impact_4_10C4C929.wem</Path>
+				</File>
+				<File Id="652960067" Language="SFX">
+					<ShortName>cloth_movement_2.wav</ShortName>
+					<Path>SFX\cloth_movement_2_10C4C929.wem</Path>
+				</File>
+				<File Id="671085990" Language="SFX">
+					<ShortName>footsteps_landing_4.wav</ShortName>
+					<Path>SFX\footsteps_landing_4_803D3743.wem</Path>
+				</File>
+				<File Id="691659575" Language="SFX">
+					<ShortName>jump_foley_4.wav</ShortName>
+					<Path>SFX\jump_foley_4_10C4C929.wem</Path>
+				</File>
+				<File Id="697316785" Language="SFX">
+					<ShortName>jump_whoosh_2.wav</ShortName>
+					<Path>SFX\jump_whoosh_2_10C4C929.wem</Path>
+				</File>
+				<File Id="709740865" Language="SFX">
+					<ShortName>metal_impact_6.wav</ShortName>
+					<Path>SFX\metal_impact_6_10C4C929.wem</Path>
+				</File>
+				<File Id="727635254" Language="SFX">
+					<ShortName>jump_foley_1.wav</ShortName>
+					<Path>SFX\jump_foley_1_10C4C929.wem</Path>
+				</File>
+				<File Id="743354021" Language="SFX">
+					<ShortName>servo_5.wav</ShortName>
+					<Path>SFX\servo_5_10C4C929.wem</Path>
+				</File>
+				<File Id="746301647" Language="SFX">
+					<ShortName>landing_boom_2.wav</ShortName>
+					<Path>SFX\landing_boom_2_10C4C929.wem</Path>
+				</File>
+				<File Id="815973839" Language="SFX">
+					<ShortName>metal_impact_2.wav</ShortName>
+					<Path>SFX\metal_impact_2_10C4C929.wem</Path>
+				</File>
+				<File Id="873097695" Language="SFX">
+					<ShortName>jump_foley_3.wav</ShortName>
+					<Path>SFX\jump_foley_3_10C4C929.wem</Path>
+				</File>
+				<File Id="880232726" Language="SFX">
+					<ShortName>cloth_movement_5.wav</ShortName>
+					<Path>SFX\cloth_movement_5_10C4C929.wem</Path>
+				</File>
+				<File Id="887230976" Language="SFX">
+					<ShortName>cloth_movement_4.wav</ShortName>
+					<Path>SFX\cloth_movement_4_10C4C929.wem</Path>
+				</File>
+				<File Id="924240257" Language="SFX">
+					<ShortName>jump_whoosh_1.wav</ShortName>
+					<Path>SFX\jump_whoosh_1_10C4C929.wem</Path>
+				</File>
+				<File Id="943178889" Language="SFX">
+					<ShortName>footsteps_landing_3.wav</ShortName>
+					<Path>SFX\footsteps_landing_3_CA14F84F.wem</Path>
+				</File>
+				<File Id="967127523" Language="SFX">
+					<ShortName>metal_impact_1.wav</ShortName>
+					<Path>SFX\metal_impact_1_10C4C929.wem</Path>
+				</File>
+				<File Id="983338226" Language="SFX">
+					<ShortName>cloth_movement_1.wav</ShortName>
+					<Path>SFX\cloth_movement_1_10C4C929.wem</Path>
+				</File>
+				<File Id="996729341" Language="SFX">
+					<ShortName>metal_impact_3.wav</ShortName>
+					<Path>SFX\metal_impact_3_10C4C929.wem</Path>
+				</File>
+				<File Id="1025201768" Language="SFX">
+					<ShortName>jump_whoosh_3.wav</ShortName>
+					<Path>SFX\jump_whoosh_3_10C4C929.wem</Path>
+				</File>
+				<File Id="1065935139" Language="SFX">
+					<ShortName>footsteps_landing_2.wav</ShortName>
+					<Path>SFX\footsteps_landing_2_0167EF37.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+			<GameParameters>
+				<GameParameter Id="1297966937" Name="RTPC_out_of_ammo_warning" ObjectPath="\Game Parameters\Default Work Unit\RTPC\RTPC_out_of_ammo_warning" GUID="{F229ADB0-6B54-4F83-89C9-1DD1A16F5E9A}"/>
+				<GameParameter Id="2709209934" Name="RTPC_ammo_HPF" ObjectPath="\Game Parameters\Default Work Unit\RTPC\RTPC_ammo_HPF" GUID="{BC26F4B6-274F-4532-AA3E-5864AD227CA0}"/>
+				<GameParameter Id="4289128226" Name="RTPC_ammo_Pitch" ObjectPath="\Game Parameters\Default Work Unit\RTPC\RTPC_ammo_Pitch" GUID="{85033DF4-E52F-4F33-A23D-010D5CB3D4F5}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="1162743606" Name="footsteps_surface" ObjectPath="\Switches\Default Work Unit\footsteps\footsteps_surface" GUID="{0ABD9BD8-ADE6-4047-82B4-94CBF6B65BB8}">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\footsteps\footsteps_surface\Concrete" GUID="{24186153-D562-4EEE-A15F-0BE816EB9A73}"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\footsteps\footsteps_surface\Dirt" GUID="{6A93404C-D19B-44B0-B2B5-E8121B15087A}"/>
+						<Switch Id="2654748154" Name="Water" ObjectPath="\Switches\Default Work Unit\footsteps\footsteps_surface\Water" GUID="{8B5B23F7-CA8C-4720-9DA1-B3130CD9FD26}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\footsteps\footsteps_surface\Metal" GUID="{AA33682B-FA56-4EEA-BBB3-43D660F79B65}"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\footsteps\footsteps_surface\Grass" GUID="{1F21DFCA-C12F-4BAF-B1F0-EF9A5B9A38B7}"/>
+						<Switch Id="2449969375" Name="Glass" ObjectPath="\Switches\Default Work Unit\footsteps\footsteps_surface\Glass" GUID="{6B1C912F-2260-4776-8B96-E77E16700698}"/>
+						<Switch Id="2058049674" Name="Wood" ObjectPath="\Switches\Default Work Unit\footsteps\footsteps_surface\Wood" GUID="{67C626B4-1B64-4ECE-BDC0-A0ABD750F025}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

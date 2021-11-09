@@ -1,0 +1,23 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1622844561	amb_state			\Default Work Unit\amb_state	
+
+State	ID	Name	State Group			Notes
+	748895195	None	amb_state			
+	1111537851	stone_inside	amb_state			
+	3271994640	stone_outside	amb_state			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	2477241980	hall_close_reverb			\Default Work Unit\Master Audio Bus\hall_close_reverb	
+	4162753235	hall_reverb			\Default Work Unit\Master Audio Bus\hall_reverb	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2648499661	Hall_Medium_Dark	Wwise RoomVerb			
+	2891462749	Room_Medium_High_Absorbtion	Wwise RoomVerb			
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
